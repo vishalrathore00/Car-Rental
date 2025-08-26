@@ -111,6 +111,7 @@ const BlogDetails = () => {
                     <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
                     <h6>
                       <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
+                      
                     </h6>
                   </div>
                 </div>
